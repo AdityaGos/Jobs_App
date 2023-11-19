@@ -25,10 +25,10 @@ const Home = () => {
           headerTitle: "",
         }}
       />
-      <ScrollView showsVerticalScrollIndicator={false} />
+      <ScrollView showsVerticalScrollIndicator={false} >
       <View style={{
-        flex:5,
-        padding:SIZES.medium
+        flex:1,
+        padding:SIZES.medium,
       }}>
             <Welcome/>
             <Popularjobs/>
@@ -36,6 +36,7 @@ const Home = () => {
 
 
       </View>
+      </ScrollView>
     </SafeAreaView>
   );
 };
